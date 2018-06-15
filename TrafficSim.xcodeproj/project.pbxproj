@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2711F6D2088E0CA004D1312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711F6C2088E0CA004D1312 /* AppDelegate.swift */; };
+		D2711F6F2088E0CA004D1312 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2711F6E2088E0CA004D1312 /* GameScene.sks */; };
+		D2711F712088E0CA004D1312 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D2711F702088E0CA004D1312 /* Actions.sks */; };
+		D2711F732088E0CA004D1312 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711F722088E0CA004D1312 /* GameScene.swift */; };
+		D2711F752088E0CA004D1312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711F742088E0CA004D1312 /* ViewController.swift */; };
+		D2711F772088E0CA004D1312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2711F762088E0CA004D1312 /* Assets.xcassets */; };
+		D2711F7A2088E0CA004D1312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2711F782088E0CA004D1312 /* Main.storyboard */; };
+		D2711F862088E0CB004D1312 /* TrafficSimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711F852088E0CB004D1312 /* TrafficSimTests.swift */; };
+		D2711F912088E0CB004D1312 /* TrafficSimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2711F902088E0CB004D1312 /* TrafficSimUITests.swift */; };
+		D271693E20A096DA009AD969 /* CarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271693D20A096DA009AD969 /* CarClass.swift */; };
+		D271694020A9CE77009AD969 /* NiceFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D271693F20A9CE77009AD969 /* NiceFunctions.swift */; };
+		D2A4D8D220BA313F00929A51 /* Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4D8D120BA313F00929A51 /* Intersection.swift */; };
+		D2A4D8D420BD947D00929A51 /* ConnectingRoadSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4D8D320BD947D00929A51 /* ConnectingRoadSegments.swift */; };
+		D2ACAC2620C6D0F7003DB061 /* RoadMapHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACAC2520C6D0F7003DB061 /* RoadMapHandler.swift */; };
+		D2ACAC2820C6D338003DB061 /* TestRoadMap.png in Resources */ = {isa = PBXBuildFile; fileRef = D2ACAC2720C6D338003DB061 /* TestRoadMap.png */; };
+		D2EF238320AC977C00D0AAE8 /* RoadClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF238220AC977C00D0AAE8 /* RoadClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2711F822088E0CB004D1312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2711F612088E0CA004D1312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2711F682088E0CA004D1312;
+			remoteInfo = TrafficSim;
+		};
+		D2711F8D2088E0CB004D1312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2711F612088E0CA004D1312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2711F682088E0CA004D1312;
+			remoteInfo = TrafficSim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2711F692088E0CA004D1312 /* TrafficSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2711F6C2088E0CA004D1312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2711F6E2088E0CA004D1312 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D2711F702088E0CA004D1312 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D2711F722088E0CA004D1312 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D2711F742088E0CA004D1312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2711F762088E0CA004D1312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2711F792088E0CA004D1312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2711F7B2088E0CA004D1312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2711F7C2088E0CA004D1312 /* TrafficSim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrafficSim.entitlements; sourceTree = "<group>"; };
+		D2711F812088E0CB004D1312 /* TrafficSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2711F852088E0CB004D1312 /* TrafficSimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSimTests.swift; sourceTree = "<group>"; };
+		D2711F872088E0CB004D1312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2711F8C2088E0CB004D1312 /* TrafficSimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficSimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2711F902088E0CB004D1312 /* TrafficSimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficSimUITests.swift; sourceTree = "<group>"; };
+		D2711F922088E0CB004D1312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D271693D20A096DA009AD969 /* CarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarClass.swift; sourceTree = "<group>"; };
+		D271693F20A9CE77009AD969 /* NiceFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceFunctions.swift; sourceTree = "<group>"; };
+		D2A4D8D120BA313F00929A51 /* Intersection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersection.swift; sourceTree = "<group>"; };
+		D2A4D8D320BD947D00929A51 /* ConnectingRoadSegments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingRoadSegments.swift; sourceTree = "<group>"; };
+		D2ACAC2520C6D0F7003DB061 /* RoadMapHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadMapHandler.swift; sourceTree = "<group>"; };
+		D2ACAC2720C6D338003DB061 /* TestRoadMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestRoadMap.png; sourceTree = "<group>"; };
+		D2EF238220AC977C00D0AAE8 /* RoadClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2711F662088E0CA004D1312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F7E2088E0CB004D1312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F892088E0CB004D1312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2711F602088E0CA004D1312 = {
+			isa = PBXGroup;
+			children = (
+				D2711F6B2088E0CA004D1312 /* TrafficSim */,
+				D2711F842088E0CB004D1312 /* TrafficSimTests */,
+				D2711F8F2088E0CB004D1312 /* TrafficSimUITests */,
+				D2711F6A2088E0CA004D1312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2711F6A2088E0CA004D1312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2711F692088E0CA004D1312 /* TrafficSim.app */,
+				D2711F812088E0CB004D1312 /* TrafficSimTests.xctest */,
+				D2711F8C2088E0CB004D1312 /* TrafficSimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2711F6B2088E0CA004D1312 /* TrafficSim */ = {
+			isa = PBXGroup;
+			children = (
+				D2711F6C2088E0CA004D1312 /* AppDelegate.swift */,
+				D2711F742088E0CA004D1312 /* ViewController.swift */,
+				D2711F6E2088E0CA004D1312 /* GameScene.sks */,
+				D2711F702088E0CA004D1312 /* Actions.sks */,
+				D271693F20A9CE77009AD969 /* NiceFunctions.swift */,
+				D271693D20A096DA009AD969 /* CarClass.swift */,
+				D2EF238220AC977C00D0AAE8 /* RoadClass.swift */,
+				D2A4D8D120BA313F00929A51 /* Intersection.swift */,
+				D2A4D8D320BD947D00929A51 /* ConnectingRoadSegments.swift */,
+				D2ACAC2520C6D0F7003DB061 /* RoadMapHandler.swift */,
+				D2711F722088E0CA004D1312 /* GameScene.swift */,
+				D2711F762088E0CA004D1312 /* Assets.xcassets */,
+				D2ACAC2720C6D338003DB061 /* TestRoadMap.png */,
+				D2711F782088E0CA004D1312 /* Main.storyboard */,
+				D2711F7B2088E0CA004D1312 /* Info.plist */,
+			);
+			path = TrafficSim;
+			sourceTree = "<group>";
+		};
+		D2711F842088E0CB004D1312 /* TrafficSimTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2711F7C2088E0CA004D1312 /* TrafficSim.entitlements */,
+				D2711F852088E0CB004D1312 /* TrafficSimTests.swift */,
+				D2711F872088E0CB004D1312 /* Info.plist */,
+			);
+			path = TrafficSimTests;
+			sourceTree = "<group>";
+		};
+		D2711F8F2088E0CB004D1312 /* TrafficSimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2711F902088E0CB004D1312 /* TrafficSimUITests.swift */,
+				D2711F922088E0CB004D1312 /* Info.plist */,
+			);
+			path = TrafficSimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2711F682088E0CA004D1312 /* TrafficSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2711F952088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSim" */;
+			buildPhases = (
+				D2711F652088E0CA004D1312 /* Sources */,
+				D2711F662088E0CA004D1312 /* Frameworks */,
+				D2711F672088E0CA004D1312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficSim;
+			productName = TrafficSim;
+			productReference = D2711F692088E0CA004D1312 /* TrafficSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2711F802088E0CB004D1312 /* TrafficSimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2711F982088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSimTests" */;
+			buildPhases = (
+				D2711F7D2088E0CB004D1312 /* Sources */,
+				D2711F7E2088E0CB004D1312 /* Frameworks */,
+				D2711F7F2088E0CB004D1312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2711F832088E0CB004D1312 /* PBXTargetDependency */,
+			);
+			name = TrafficSimTests;
+			productName = TrafficSimTests;
+			productReference = D2711F812088E0CB004D1312 /* TrafficSimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2711F8B2088E0CB004D1312 /* TrafficSimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2711F9B2088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSimUITests" */;
+			buildPhases = (
+				D2711F882088E0CB004D1312 /* Sources */,
+				D2711F892088E0CB004D1312 /* Frameworks */,
+				D2711F8A2088E0CB004D1312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2711F8E2088E0CB004D1312 /* PBXTargetDependency */,
+			);
+			name = TrafficSimUITests;
+			productName = TrafficSimUITests;
+			productReference = D2711F8C2088E0CB004D1312 /* TrafficSimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2711F612088E0CA004D1312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Big_Dump_11;
+				TargetAttributes = {
+					D2711F682088E0CA004D1312 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D2711F802088E0CB004D1312 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2711F682088E0CA004D1312;
+					};
+					D2711F8B2088E0CB004D1312 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2711F682088E0CA004D1312;
+					};
+				};
+			};
+			buildConfigurationList = D2711F642088E0CA004D1312 /* Build configuration list for PBXProject "TrafficSim" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2711F602088E0CA004D1312;
+			productRefGroup = D2711F6A2088E0CA004D1312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2711F682088E0CA004D1312 /* TrafficSim */,
+				D2711F802088E0CB004D1312 /* TrafficSimTests */,
+				D2711F8B2088E0CB004D1312 /* TrafficSimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2711F672088E0CA004D1312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2ACAC2820C6D338003DB061 /* TestRoadMap.png in Resources */,
+				D2711F6F2088E0CA004D1312 /* GameScene.sks in Resources */,
+				D2711F772088E0CA004D1312 /* Assets.xcassets in Resources */,
+				D2711F712088E0CA004D1312 /* Actions.sks in Resources */,
+				D2711F7A2088E0CA004D1312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F7F2088E0CB004D1312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F8A2088E0CB004D1312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2711F652088E0CA004D1312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2711F752088E0CA004D1312 /* ViewController.swift in Sources */,
+				D271694020A9CE77009AD969 /* NiceFunctions.swift in Sources */,
+				D271693E20A096DA009AD969 /* CarClass.swift in Sources */,
+				D2A4D8D420BD947D00929A51 /* ConnectingRoadSegments.swift in Sources */,
+				D2711F732088E0CA004D1312 /* GameScene.swift in Sources */,
+				D2ACAC2620C6D0F7003DB061 /* RoadMapHandler.swift in Sources */,
+				D2EF238320AC977C00D0AAE8 /* RoadClass.swift in Sources */,
+				D2A4D8D220BA313F00929A51 /* Intersection.swift in Sources */,
+				D2711F6D2088E0CA004D1312 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F7D2088E0CB004D1312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2711F862088E0CB004D1312 /* TrafficSimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2711F882088E0CB004D1312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2711F912088E0CB004D1312 /* TrafficSimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2711F832088E0CB004D1312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2711F682088E0CA004D1312 /* TrafficSim */;
+			targetProxy = D2711F822088E0CB004D1312 /* PBXContainerItemProxy */;
+		};
+		D2711F8E2088E0CB004D1312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2711F682088E0CA004D1312 /* TrafficSim */;
+			targetProxy = D2711F8D2088E0CB004D1312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2711F782088E0CA004D1312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2711F792088E0CA004D1312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2711F932088E0CB004D1312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2711F942088E0CB004D1312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D2711F962088E0CB004D1312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D2711F972088E0CB004D1312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSim/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D2711F992088E0CB004D1312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSim.app/Contents/MacOS/TrafficSim";
+			};
+			name = Debug;
+		};
+		D2711F9A2088E0CB004D1312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSimTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficSim.app/Contents/MacOS/TrafficSim";
+			};
+			name = Release;
+		};
+		D2711F9C2088E0CB004D1312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TrafficSim;
+			};
+			name = Debug;
+		};
+		D2711F9D2088E0CB004D1312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TrafficSimUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Isaiah.TrafficSimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TrafficSim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2711F642088E0CA004D1312 /* Build configuration list for PBXProject "TrafficSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2711F932088E0CB004D1312 /* Debug */,
+				D2711F942088E0CB004D1312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2711F952088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2711F962088E0CB004D1312 /* Debug */,
+				D2711F972088E0CB004D1312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2711F982088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2711F992088E0CB004D1312 /* Debug */,
+				D2711F9A2088E0CB004D1312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2711F9B2088E0CB004D1312 /* Build configuration list for PBXNativeTarget "TrafficSimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2711F9C2088E0CB004D1312 /* Debug */,
+				D2711F9D2088E0CB004D1312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2711F612088E0CA004D1312 /* Project object */;
+}

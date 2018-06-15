@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TrafficSim.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D2711F682088E0CA004D1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2711F802088E0CB004D1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2711F8B2088E0CB004D1312</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

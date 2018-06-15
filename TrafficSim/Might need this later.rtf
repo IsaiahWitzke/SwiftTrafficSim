@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue0;\red255\green255\blue255;\red0\green0\blue0;
+\red0\green0\blue255;\red43\green131\blue159;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c50200\c0;\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c0\c0\c0;
+\csgenericrgb\c0\c0\c100000;\csgenericrgb\c16900\c51200\c62500;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab692
+\pard\tx692\pardeftab692\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 //connecting the roads to eachother
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4         \cf5 for\cf4  i \cf5 in\cf4  0...\cf6 roads\cf4 .\cf6 count\cf4 -1 \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4             \cf5 if\cf4  i <= 3 \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 self\cf4 .\cf6 roads\cf4 [i].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+8])      \cf2 //straight connection roads
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf2 //from straight connectors to the outgoing roads
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 if\cf4  i <= 1 \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+8].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+6])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \} \cf5 else\cf4  \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+8].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+2])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \}
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 self\cf4 .\cf6 roads\cf4 [i].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+12])     \cf2 //right turning
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf2 //right turning roads into outgoing roads
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 if\cf4  i > 0 \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+12].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+3])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \} \cf5 else\cf4  \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+12].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [7])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \}
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 self\cf4 .\cf6 roads\cf4 [i].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+16])     \cf2 //left turns
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf2 //left turning into outgoing roads
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \cf5 if\cf4  i < 3 \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+16].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [i+5])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \} \cf5 else\cf4  \{
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                     \cf5 self\cf4 .\cf6 roads\cf4 [i+16].\cf6 nextRoads\cf4 .\cf6 append\cf4 (\cf6 roads\cf4 [4])
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4                 \}
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4             \}
+\f1\fs24 \cf0 \
+
+\f0\fs28 \cf4         \}}

@@ -1,0 +1,315 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Road"
+provides-nominal:
+- "10TrafficSim4RoadC"
+provides-member:
+- ["10TrafficSim4RoadC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- !private "CGMutablePath"
+- "CGPoint"
+- "Intersection"
+- !private "NSColor"
+- "Road"
+- "SKShapeNode"
+- "String"
+- "StringLiteralType"
+- !private "abs"
+- !private "atan"
+- !private "cos"
+- !private "distanceBetweenPoints"
+- !private "sin"
+- !private "slopeBetweenPoints"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "pi"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["12CoreGraphics7CGFloatV", "pi"]
+- !private ["So13CGMutablePathC", "addArc"]
+- !private ["So13CGMutablePathC", "init"]
+- !private ["So6CGPathC", "addArc"]
+- !private ["So6CGPathC", "init"]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC7CGPointV", "x"]
+- !private ["SC7CGPointV", "y"]
+- ["SC7CGPointV", "zero"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lineWidth"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "strokeColor"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lineWidth"]
+- !private ["s28CustomDebugStringConvertibleP", "strokeColor"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lineWidth"]
+- !private ["s29CustomPlaygroundQuickLookableP", "strokeColor"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lineWidth"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "strokeColor"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "pi"]
+- !private ["s9DecodableP", "x"]
+- !private ["s9DecodableP", "y"]
+- ["s9DecodableP", "zero"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "pi"]
+- !private ["s9EncodableP", "x"]
+- !private ["s9EncodableP", "y"]
+- ["s9EncodableP", "zero"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addArc"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lineWidth"]
+- !private ["s9EquatableP", "pi"]
+- !private ["s9EquatableP", "strokeColor"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- ["s9EquatableP", "zero"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "pi"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addArc"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lineWidth"]
+- !private ["s8HashableP", "pi"]
+- !private ["s8HashableP", "strokeColor"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lineWidth"]
+- !private ["So8NSCodingP", "strokeColor"]
+- !private ["So7NSColorC", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lineWidth"]
+- !private ["So9NSCopyingP", "strokeColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lineWidth"]
+- !private ["So8NSObjectC", "strokeColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lineWidth"]
+- !private ["So16NSObjectProtocolP", "strokeColor"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- !private ["So11NSResponderC", "init"]
+- !private ["So11NSResponderC", "lineWidth"]
+- !private ["So11NSResponderC", "strokeColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "lineWidth"]
+- !private ["So18NSTouchBarProviderP", "strokeColor"]
+- !private ["s7NumericP", "pi"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["10TrafficSim4RoadC", "Bool"]
+- ["10TrafficSim4RoadC", "CGFloat"]
+- !private ["10TrafficSim4RoadC", "CGMutablePath"]
+- ["10TrafficSim4RoadC", "CGPoint"]
+- ["10TrafficSim4RoadC", "Intersection"]
+- !private ["10TrafficSim4RoadC", "NSColor"]
+- ["10TrafficSim4RoadC", "Road"]
+- ["10TrafficSim4RoadC", "SKShapeNode"]
+- ["10TrafficSim4RoadC", "String"]
+- !private ["10TrafficSim4RoadC", "abs"]
+- ["10TrafficSim4RoadC", "angleOfRoad"]
+- ["10TrafficSim4RoadC", "associatedIntersection"]
+- !private ["10TrafficSim4RoadC", "atan"]
+- ["10TrafficSim4RoadC", "circleCenter"]
+- ["10TrafficSim4RoadC", "clockwiseDirection"]
+- !private ["10TrafficSim4RoadC", "cos"]
+- ["10TrafficSim4RoadC", "deinit"]
+- !private ["10TrafficSim4RoadC", "distanceBetweenPoints"]
+- ["10TrafficSim4RoadC", "endPoint"]
+- ["10TrafficSim4RoadC", "init"]
+- ["10TrafficSim4RoadC", "length"]
+- ["10TrafficSim4RoadC", "moveDownRoad"]
+- ["10TrafficSim4RoadC", "nextRoads"]
+- ["10TrafficSim4RoadC", "previousRoads"]
+- ["10TrafficSim4RoadC", "radius"]
+- ["10TrafficSim4RoadC", "roadLine"]
+- ["10TrafficSim4RoadC", "roadType"]
+- !private ["10TrafficSim4RoadC", "sin"]
+- !private ["10TrafficSim4RoadC", "slopeBetweenPoints"]
+- ["10TrafficSim4RoadC", "startPoint"]
+- !private ["So6SKNodeC", "init"]
+- !private ["So6SKNodeC", "lineWidth"]
+- !private ["So6SKNodeC", "strokeColor"]
+- !private ["So11SKShapeNodeC", "init"]
+- !private ["So11SKShapeNodeC", "lineWidth"]
+- !private ["So11SKShapeNodeC", "strokeColor"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s10StrideableP", "pi"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["14CoreFoundation9_CFObjectP", "addArc"]
+- !private ["14CoreFoundation9_CFObjectP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lineWidth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strokeColor"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "pi"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So13CGMutablePathC"
+- !private "So6CGPathC"
+- "SC7CGPointV"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So7NSColorC"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So11NSResponderC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So18NSTouchBarProviderP"
+- !private "s7NumericP"
+- !private "s26RangeReplaceableCollectionP"
+- "10TrafficSim4RoadC"
+- !private "So6SKNodeC"
+- !private "So11SKShapeNodeC"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s23_BidirectionalIndexableP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "2e8350c12b977113fba3e54213ebbe75"

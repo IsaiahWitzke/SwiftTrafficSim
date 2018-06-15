@@ -1,0 +1,745 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DEBUG"
+- "DELTATIME"
+- "allRoads"
+- "allCars"
+- "GLOBALSCALE"
+- "GameScene"
+provides-nominal:
+- "10TrafficSim9GameSceneC"
+provides-member:
+- ["10TrafficSim9GameSceneC", ""]
+provides-dynamic-lookup:
+- "didMove"
+- "update"
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "..<"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "CFAbsoluteTimeGetCurrent"
+- "CGFloat"
+- "CarClass"
+- "DEBUG"
+- "DELTATIME"
+- "FloatLiteralType"
+- "GLOBALSCALE"
+- "GameScene"
+- !private "Int"
+- "Road"
+- !private "SKColor"
+- "SKScene"
+- "SKView"
+- !private "StringLiteralType"
+- "TimeInterval"
+- !private "UInt32"
+- "allCars"
+- "allRoads"
+- !private "arc4random_uniform"
+- !private "connnectAllRoads"
+- !private "makeRoads"
+- !private "print"
+- !private "purgeDeadEnds"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "carSprite"]
+- !private ["s10ArraySliceV", "roadLine"]
+- !private ["s10ArraySliceV", "updateCar"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "carSprite"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "roadLine"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s23BidirectionalCollectionP", "updateCar"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s7CVarArgP", "CarClass"]
+- !private ["s7CVarArgP", "DEBUG"]
+- !private ["s7CVarArgP", "DELTATIME"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "SKColor"]
+- !private ["s7CVarArgP", "UInt32"]
+- !private ["s7CVarArgP", "addChild"]
+- !private ["s7CVarArgP", "allCars"]
+- !private ["s7CVarArgP", "allRoads"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arc4random_uniform"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "brown"]
+- !private ["s7CVarArgP", "connnectAllRoads"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastTime"]
+- !private ["s7CVarArgP", "makeRoads"]
+- !private ["s7CVarArgP", "numberOfFrames"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "purgeDeadEnds"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", ""]
+- !private ["10TrafficSim8CarClassC", "carSprite"]
+- !private ["10TrafficSim8CarClassC", "init"]
+- !private ["10TrafficSim8CarClassC", "updateCar"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "carSprite"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "roadLine"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "updateCar"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CarClass"]
+- !private ["s28CustomDebugStringConvertibleP", "DEBUG"]
+- !private ["s28CustomDebugStringConvertibleP", "DELTATIME"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "SKColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "addChild"]
+- !private ["s28CustomDebugStringConvertibleP", "allCars"]
+- !private ["s28CustomDebugStringConvertibleP", "allRoads"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random_uniform"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "brown"]
+- !private ["s28CustomDebugStringConvertibleP", "carSprite"]
+- !private ["s28CustomDebugStringConvertibleP", "connnectAllRoads"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastTime"]
+- !private ["s28CustomDebugStringConvertibleP", "makeRoads"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfFrames"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "purgeDeadEnds"]
+- !private ["s28CustomDebugStringConvertibleP", "roadLine"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "updateCar"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "carSprite"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "roadLine"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "updateCar"]
+- ["s23CustomStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CarClass"]
+- !private ["s23CustomStringConvertibleP", "DEBUG"]
+- !private ["s23CustomStringConvertibleP", "DELTATIME"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "SKColor"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addChild"]
+- !private ["s23CustomStringConvertibleP", "allCars"]
+- !private ["s23CustomStringConvertibleP", "allRoads"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arc4random_uniform"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "brown"]
+- !private ["s23CustomStringConvertibleP", "carSprite"]
+- !private ["s23CustomStringConvertibleP", "connnectAllRoads"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastTime"]
+- !private ["s23CustomStringConvertibleP", "makeRoads"]
+- !private ["s23CustomStringConvertibleP", "numberOfFrames"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "purgeDeadEnds"]
+- !private ["s23CustomStringConvertibleP", "roadLine"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "updateCar"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s9EquatableP", "CarClass"]
+- !private ["s9EquatableP", "DEBUG"]
+- !private ["s9EquatableP", "DELTATIME"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "SKColor"]
+- !private ["s9EquatableP", "UInt32"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addChild"]
+- !private ["s9EquatableP", "allCars"]
+- !private ["s9EquatableP", "allRoads"]
+- !private ["s9EquatableP", "arc4random_uniform"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "brown"]
+- !private ["s9EquatableP", "connnectAllRoads"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastTime"]
+- !private ["s9EquatableP", "makeRoads"]
+- !private ["s9EquatableP", "numberOfFrames"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "purgeDeadEnds"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "carSprite"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "roadLine"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "updateCar"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["So19GKSceneRootNodeTypeP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So19GKSceneRootNodeTypeP", "CarClass"]
+- !private ["So19GKSceneRootNodeTypeP", "DEBUG"]
+- !private ["So19GKSceneRootNodeTypeP", "DELTATIME"]
+- !private ["So19GKSceneRootNodeTypeP", "Int"]
+- !private ["So19GKSceneRootNodeTypeP", "SKColor"]
+- !private ["So19GKSceneRootNodeTypeP", "UInt32"]
+- !private ["So19GKSceneRootNodeTypeP", "addChild"]
+- !private ["So19GKSceneRootNodeTypeP", "allCars"]
+- !private ["So19GKSceneRootNodeTypeP", "allRoads"]
+- !private ["So19GKSceneRootNodeTypeP", "arc4random_uniform"]
+- !private ["So19GKSceneRootNodeTypeP", "backgroundColor"]
+- !private ["So19GKSceneRootNodeTypeP", "connnectAllRoads"]
+- !private ["So19GKSceneRootNodeTypeP", "init"]
+- !private ["So19GKSceneRootNodeTypeP", "lastTime"]
+- !private ["So19GKSceneRootNodeTypeP", "makeRoads"]
+- !private ["So19GKSceneRootNodeTypeP", "numberOfFrames"]
+- !private ["So19GKSceneRootNodeTypeP", "print"]
+- !private ["So19GKSceneRootNodeTypeP", "purgeDeadEnds"]
+- ["So19GKSceneRootNodeTypeP", ""]
+- ["10TrafficSim9GameSceneC", "CFAbsoluteTimeGetCurrent"]
+- !private ["10TrafficSim9GameSceneC", "CarClass"]
+- !private ["10TrafficSim9GameSceneC", "DEBUG"]
+- !private ["10TrafficSim9GameSceneC", "DELTATIME"]
+- !private ["10TrafficSim9GameSceneC", "Int"]
+- !private ["10TrafficSim9GameSceneC", "SKColor"]
+- ["10TrafficSim9GameSceneC", "SKView"]
+- ["10TrafficSim9GameSceneC", "TimeInterval"]
+- !private ["10TrafficSim9GameSceneC", "UInt32"]
+- !private ["10TrafficSim9GameSceneC", "addChild"]
+- !private ["10TrafficSim9GameSceneC", "allCars"]
+- !private ["10TrafficSim9GameSceneC", "allRoads"]
+- !private ["10TrafficSim9GameSceneC", "arc4random_uniform"]
+- !private ["10TrafficSim9GameSceneC", "backgroundColor"]
+- !private ["10TrafficSim9GameSceneC", "connnectAllRoads"]
+- ["10TrafficSim9GameSceneC", "deinit"]
+- ["10TrafficSim9GameSceneC", "didMove"]
+- ["10TrafficSim9GameSceneC", "init"]
+- ["10TrafficSim9GameSceneC", "lastTime"]
+- !private ["10TrafficSim9GameSceneC", "makeRoads"]
+- ["10TrafficSim9GameSceneC", "numberOfFrames"]
+- !private ["10TrafficSim9GameSceneC", "print"]
+- !private ["10TrafficSim9GameSceneC", "purgeDeadEnds"]
+- ["10TrafficSim9GameSceneC", "update"]
+- ["s8HashableP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s8HashableP", "CarClass"]
+- !private ["s8HashableP", "DEBUG"]
+- !private ["s8HashableP", "DELTATIME"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "SKColor"]
+- !private ["s8HashableP", "UInt32"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addChild"]
+- !private ["s8HashableP", "allCars"]
+- !private ["s8HashableP", "allRoads"]
+- !private ["s8HashableP", "arc4random_uniform"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "brown"]
+- !private ["s8HashableP", "connnectAllRoads"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastTime"]
+- !private ["s8HashableP", "makeRoads"]
+- !private ["s8HashableP", "numberOfFrames"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "purgeDeadEnds"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "carSprite"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "roadLine"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s17MutableCollectionP", "updateCar"]
+- ["So8NSCodingP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So8NSCodingP", "CarClass"]
+- !private ["So8NSCodingP", "DEBUG"]
+- !private ["So8NSCodingP", "DELTATIME"]
+- !private ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "SKColor"]
+- !private ["So8NSCodingP", "UInt32"]
+- !private ["So8NSCodingP", "addChild"]
+- !private ["So8NSCodingP", "allCars"]
+- !private ["So8NSCodingP", "allRoads"]
+- !private ["So8NSCodingP", "arc4random_uniform"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "brown"]
+- !private ["So8NSCodingP", "connnectAllRoads"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastTime"]
+- !private ["So8NSCodingP", "makeRoads"]
+- !private ["So8NSCodingP", "numberOfFrames"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "purgeDeadEnds"]
+- ["So8NSCodingP", ""]
+- !private ["So7NSColorC", "brown"]
+- ["So9NSCopyingP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So9NSCopyingP", "CarClass"]
+- !private ["So9NSCopyingP", "DEBUG"]
+- !private ["So9NSCopyingP", "DELTATIME"]
+- !private ["So9NSCopyingP", "Int"]
+- !private ["So9NSCopyingP", "SKColor"]
+- !private ["So9NSCopyingP", "UInt32"]
+- !private ["So9NSCopyingP", "addChild"]
+- !private ["So9NSCopyingP", "allCars"]
+- !private ["So9NSCopyingP", "allRoads"]
+- !private ["So9NSCopyingP", "arc4random_uniform"]
+- !private ["So9NSCopyingP", "backgroundColor"]
+- !private ["So9NSCopyingP", "brown"]
+- !private ["So9NSCopyingP", "connnectAllRoads"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lastTime"]
+- !private ["So9NSCopyingP", "makeRoads"]
+- !private ["So9NSCopyingP", "numberOfFrames"]
+- !private ["So9NSCopyingP", "print"]
+- !private ["So9NSCopyingP", "purgeDeadEnds"]
+- ["So9NSCopyingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So8NSObjectC", "CarClass"]
+- !private ["So8NSObjectC", "DEBUG"]
+- !private ["So8NSObjectC", "DELTATIME"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "SKColor"]
+- ["So8NSObjectC", "SKView"]
+- ["So8NSObjectC", "TimeInterval"]
+- !private ["So8NSObjectC", "UInt32"]
+- !private ["So8NSObjectC", "addChild"]
+- !private ["So8NSObjectC", "allCars"]
+- !private ["So8NSObjectC", "allRoads"]
+- !private ["So8NSObjectC", "arc4random_uniform"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "brown"]
+- !private ["So8NSObjectC", "connnectAllRoads"]
+- ["So8NSObjectC", "didMove"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lastTime"]
+- !private ["So8NSObjectC", "makeRoads"]
+- ["So8NSObjectC", "numberOfFrames"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "purgeDeadEnds"]
+- ["So8NSObjectC", "update"]
+- ["So16NSObjectProtocolP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So16NSObjectProtocolP", "CarClass"]
+- !private ["So16NSObjectProtocolP", "DEBUG"]
+- !private ["So16NSObjectProtocolP", "DELTATIME"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "SKColor"]
+- !private ["So16NSObjectProtocolP", "UInt32"]
+- !private ["So16NSObjectProtocolP", "addChild"]
+- !private ["So16NSObjectProtocolP", "allCars"]
+- !private ["So16NSObjectProtocolP", "allRoads"]
+- !private ["So16NSObjectProtocolP", "arc4random_uniform"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "brown"]
+- !private ["So16NSObjectProtocolP", "connnectAllRoads"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lastTime"]
+- !private ["So16NSObjectProtocolP", "makeRoads"]
+- !private ["So16NSObjectProtocolP", "numberOfFrames"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "purgeDeadEnds"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So19NSPasteboardReadingP", "brown"]
+- !private ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardWritingP", "brown"]
+- !private ["So19NSPasteboardWritingP", "init"]
+- ["So11NSResponderC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So11NSResponderC", "CarClass"]
+- !private ["So11NSResponderC", "DEBUG"]
+- !private ["So11NSResponderC", "DELTATIME"]
+- !private ["So11NSResponderC", "Int"]
+- !private ["So11NSResponderC", "SKColor"]
+- ["So11NSResponderC", "SKView"]
+- ["So11NSResponderC", "TimeInterval"]
+- !private ["So11NSResponderC", "UInt32"]
+- !private ["So11NSResponderC", "addChild"]
+- !private ["So11NSResponderC", "allCars"]
+- !private ["So11NSResponderC", "allRoads"]
+- !private ["So11NSResponderC", "arc4random_uniform"]
+- !private ["So11NSResponderC", "backgroundColor"]
+- !private ["So11NSResponderC", "connnectAllRoads"]
+- ["So11NSResponderC", "didMove"]
+- ["So11NSResponderC", "init"]
+- ["So11NSResponderC", "lastTime"]
+- !private ["So11NSResponderC", "makeRoads"]
+- ["So11NSResponderC", "numberOfFrames"]
+- !private ["So11NSResponderC", "print"]
+- !private ["So11NSResponderC", "purgeDeadEnds"]
+- ["So11NSResponderC", "update"]
+- !private ["So14NSSecureCodingP", "brown"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- ["So18NSTouchBarProviderP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So18NSTouchBarProviderP", "CarClass"]
+- !private ["So18NSTouchBarProviderP", "DEBUG"]
+- !private ["So18NSTouchBarProviderP", "DELTATIME"]
+- !private ["So18NSTouchBarProviderP", "Int"]
+- !private ["So18NSTouchBarProviderP", "SKColor"]
+- !private ["So18NSTouchBarProviderP", "UInt32"]
+- !private ["So18NSTouchBarProviderP", "addChild"]
+- !private ["So18NSTouchBarProviderP", "allCars"]
+- !private ["So18NSTouchBarProviderP", "allRoads"]
+- !private ["So18NSTouchBarProviderP", "arc4random_uniform"]
+- !private ["So18NSTouchBarProviderP", "backgroundColor"]
+- !private ["So18NSTouchBarProviderP", "connnectAllRoads"]
+- !private ["So18NSTouchBarProviderP", "init"]
+- !private ["So18NSTouchBarProviderP", "lastTime"]
+- !private ["So18NSTouchBarProviderP", "makeRoads"]
+- !private ["So18NSTouchBarProviderP", "numberOfFrames"]
+- !private ["So18NSTouchBarProviderP", "print"]
+- !private ["So18NSTouchBarProviderP", "purgeDeadEnds"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "carSprite"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "roadLine"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "updateCar"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "carSprite"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "roadLine"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "updateCar"]
+- !private ["10TrafficSim4RoadC", "roadLine"]
+- ["So12SKEffectNodeC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So12SKEffectNodeC", "CarClass"]
+- !private ["So12SKEffectNodeC", "DEBUG"]
+- !private ["So12SKEffectNodeC", "DELTATIME"]
+- !private ["So12SKEffectNodeC", "Int"]
+- !private ["So12SKEffectNodeC", "SKColor"]
+- ["So12SKEffectNodeC", "SKView"]
+- ["So12SKEffectNodeC", "TimeInterval"]
+- !private ["So12SKEffectNodeC", "UInt32"]
+- !private ["So12SKEffectNodeC", "addChild"]
+- !private ["So12SKEffectNodeC", "allCars"]
+- !private ["So12SKEffectNodeC", "allRoads"]
+- !private ["So12SKEffectNodeC", "arc4random_uniform"]
+- !private ["So12SKEffectNodeC", "backgroundColor"]
+- !private ["So12SKEffectNodeC", "connnectAllRoads"]
+- ["So12SKEffectNodeC", "didMove"]
+- ["So12SKEffectNodeC", "init"]
+- ["So12SKEffectNodeC", "lastTime"]
+- !private ["So12SKEffectNodeC", "makeRoads"]
+- ["So12SKEffectNodeC", "numberOfFrames"]
+- !private ["So12SKEffectNodeC", "print"]
+- !private ["So12SKEffectNodeC", "purgeDeadEnds"]
+- ["So12SKEffectNodeC", "update"]
+- ["So6SKNodeC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So6SKNodeC", "CarClass"]
+- !private ["So6SKNodeC", "DEBUG"]
+- !private ["So6SKNodeC", "DELTATIME"]
+- !private ["So6SKNodeC", "Int"]
+- !private ["So6SKNodeC", "SKColor"]
+- ["So6SKNodeC", "SKView"]
+- ["So6SKNodeC", "TimeInterval"]
+- !private ["So6SKNodeC", "UInt32"]
+- !private ["So6SKNodeC", "addChild"]
+- !private ["So6SKNodeC", "allCars"]
+- !private ["So6SKNodeC", "allRoads"]
+- !private ["So6SKNodeC", "arc4random_uniform"]
+- !private ["So6SKNodeC", "backgroundColor"]
+- !private ["So6SKNodeC", "connnectAllRoads"]
+- ["So6SKNodeC", "didMove"]
+- ["So6SKNodeC", "init"]
+- ["So6SKNodeC", "lastTime"]
+- !private ["So6SKNodeC", "makeRoads"]
+- ["So6SKNodeC", "numberOfFrames"]
+- !private ["So6SKNodeC", "print"]
+- !private ["So6SKNodeC", "purgeDeadEnds"]
+- ["So6SKNodeC", "update"]
+- ["So7SKSceneC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So7SKSceneC", "CarClass"]
+- !private ["So7SKSceneC", "DEBUG"]
+- !private ["So7SKSceneC", "DELTATIME"]
+- !private ["So7SKSceneC", "Int"]
+- !private ["So7SKSceneC", "SKColor"]
+- ["So7SKSceneC", "SKView"]
+- ["So7SKSceneC", "TimeInterval"]
+- !private ["So7SKSceneC", "UInt32"]
+- !private ["So7SKSceneC", "addChild"]
+- !private ["So7SKSceneC", "allCars"]
+- !private ["So7SKSceneC", "allRoads"]
+- !private ["So7SKSceneC", "arc4random_uniform"]
+- !private ["So7SKSceneC", "backgroundColor"]
+- !private ["So7SKSceneC", "connnectAllRoads"]
+- ["So7SKSceneC", "didMove"]
+- ["So7SKSceneC", "init"]
+- ["So7SKSceneC", "lastTime"]
+- !private ["So7SKSceneC", "makeRoads"]
+- ["So7SKSceneC", "numberOfFrames"]
+- !private ["So7SKSceneC", "print"]
+- !private ["So7SKSceneC", "purgeDeadEnds"]
+- ["So7SKSceneC", "update"]
+- ["So7SKSceneC", ""]
+- ["So10SKWarpableP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So10SKWarpableP", "CarClass"]
+- !private ["So10SKWarpableP", "DEBUG"]
+- !private ["So10SKWarpableP", "DELTATIME"]
+- !private ["So10SKWarpableP", "Int"]
+- !private ["So10SKWarpableP", "SKColor"]
+- !private ["So10SKWarpableP", "UInt32"]
+- !private ["So10SKWarpableP", "addChild"]
+- !private ["So10SKWarpableP", "allCars"]
+- !private ["So10SKWarpableP", "allRoads"]
+- !private ["So10SKWarpableP", "arc4random_uniform"]
+- !private ["So10SKWarpableP", "backgroundColor"]
+- !private ["So10SKWarpableP", "connnectAllRoads"]
+- !private ["So10SKWarpableP", "init"]
+- !private ["So10SKWarpableP", "lastTime"]
+- !private ["So10SKWarpableP", "makeRoads"]
+- !private ["So10SKWarpableP", "numberOfFrames"]
+- !private ["So10SKWarpableP", "print"]
+- !private ["So10SKWarpableP", "purgeDeadEnds"]
+- ["So10SKWarpableP", ""]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "carSprite"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "roadLine"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "updateCar"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "carSprite"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "roadLine"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "updateCar"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "carSprite"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "roadLine"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "updateCar"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "carSprite"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "roadLine"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "updateCar"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "brown"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "carSprite"]
+- !private ["s10_IndexableP", "count"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "roadLine"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s10_IndexableP", "updateCar"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "carSprite"]
+- !private ["s14_IndexableBaseP", "count"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "roadLine"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["s14_IndexableBaseP", "updateCar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CFAbsoluteTimeGetCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CarClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DEBUG"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DELTATIME"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SKColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChild"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allCars"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allRoads"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random_uniform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "brown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connnectAllRoads"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeRoads"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfFrames"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "purgeDeadEnds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "carSprite"]
+- !private ["s17_MutableIndexableP", "count"]
+- !private ["s17_MutableIndexableP", "roadLine"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s17_MutableIndexableP", "updateCar"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "carSprite"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- !private ["s22_RandomAccessIndexableP", "roadLine"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "updateCar"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "carSprite"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "roadLine"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "updateCar"]
+- !private ["s11_StrideableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "10TrafficSim8CarClassC"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "So19GKSceneRootNodeTypeP"
+- "10TrafficSim9GameSceneC"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So7NSColorC"
+- "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- "So11NSResponderC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "So18NSTouchBarProviderP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10TrafficSim4RoadC"
+- "So12SKEffectNodeC"
+- "So6SKNodeC"
+- "So7SKSceneC"
+- "So10SKWarpableP"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6f3e83a328ed50103b42cf933afe836b"

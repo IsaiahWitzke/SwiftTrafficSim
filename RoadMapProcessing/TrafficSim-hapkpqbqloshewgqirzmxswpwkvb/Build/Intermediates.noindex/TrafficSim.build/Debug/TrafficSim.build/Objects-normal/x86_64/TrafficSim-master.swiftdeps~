@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7ddf79d1b384ff2af2416c2e7eafe402"
+build_time: [1529077251, 474756000]
+inputs:
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/ViewController.swift": [1524494039, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/NiceFunctions.swift": [1527878798, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/CarClass.swift": [1529067707, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/ConnectingRoadSegments.swift": [1528849786, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/GameScene.swift": [1529077251, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/RoadMapHandler.swift": [1528486148, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/RoadClass.swift": [1528983642, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/Intersection.swift": [1528995202, 0]
+  "/Users/student2018/Desktop/SwiftProjects/TrafficSim/TrafficSim/AppDelegate.swift": [1524148554, 0]
