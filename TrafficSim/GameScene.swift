@@ -55,7 +55,6 @@ class GameScene: SKScene {
         
         //initializing cars (at random positions)
         allCars.append(CarClass(imageName: "Car1", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
-        
         allCars.append(CarClass(imageName: "Car2", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car3", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car4", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
