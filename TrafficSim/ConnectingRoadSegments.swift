@@ -20,7 +20,6 @@ class RoadSegment {
     //the offset will be based of the start of the rightSideRoad
     init (_ offsetPoint:CGPoint, _ length:CGFloat, _ isVertical:Bool, corner:String = "", masterRoadNetwork: inout [Road]) {
         
-        
         let distanceBetweenRoads = 50 * GLOBALSCALE
         
         self.corner = corner

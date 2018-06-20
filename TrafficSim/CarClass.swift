@@ -32,7 +32,7 @@ class CarClass {
         self.speed = initialSpeed
         
         //stuff that will never change about the car
-        self.carSprite.size = CGSize(width: (GLOBALSCALE*carSprite.size.width/6), height: (GLOBALSCALE*carSprite.size.height/6))
+        self.carSprite.size = CGSize(width: (GLOBALSCALE*carSprite.size.width/7), height: (GLOBALSCALE*carSprite.size.height/7))
         self.carSprite.anchorPoint = CGPoint(x: 0.35, y: 0.5)
         
         self.carName = imageName
@@ -70,7 +70,6 @@ class CarClass {
         
     }
     
-    
     //pathfinding
     //will return the next road that the car should go onto
     func pathFind (destination:Road) -> Road {
@@ -84,11 +83,10 @@ class CarClass {
             for i in 0...everyPath.count-1 {
                 for j in 0...(everyPath[i].last?.nextRoads.count)!-1 {
                     
-                    //as long as the next roads arn't already used, then add them to the list of lists of roads
+                    //as long as the next roads aren't already used, then add them to the list of lists of roads
                     if !contains(everyPath[i], (everyPath[i].last?.nextRoads[j])!) {
                         newPaths.append(everyPath[i])
                         newPaths[newPaths.count-1].append((everyPath[i].last?.nextRoads[j])!)
-                        
                         
                         //if we have found the correct path:
                         if newPaths.last?.last === destination {
@@ -98,10 +96,10 @@ class CarClass {
                 }
             }
             
-            //if the newPaths is empty then we leave
+            //if the newPaths is empty then we just go to a default road. The car will just go on forever (impossible pathfinding)
             if newPaths.count == 0 {
                 print("pathfinding error")
-                return currentRoad!
+                return (currentRoad?.nextRoads[0])!
             }
             
             //updating everyPath
@@ -111,9 +109,6 @@ class CarClass {
    
     
     func canGoAtStopSign () -> Bool {
-        
-        //the road segment that is 4 ahead of the list of the current incoming road into the intersection is the road traveling in the opposite direction of that of the car
-        
         //if there is a car present on the the intersection's "IntersectionThroughRoads" then we will not go
         for tempCar in allCars {
             //see if the tempcar even is in AN intersection
@@ -162,8 +157,6 @@ class CarClass {
             print()
         }
         
-        
-        
         //if there are no more roads, avoid crashing the program:
         if currentRoad == nil {
             return
@@ -198,7 +191,7 @@ class CarClass {
             }
             //looking 1 road segment ahead, if theres a car there, then slow down
             if tempCar.currentRoad === self.currentRoad?.nextRoads[0] {
-                brake((self.currentRoad?.length)! - self.distanceDownCurrentRoad - 100*GLOBALSCALE)
+                brake((self.currentRoad?.length)! - self.distanceDownCurrentRoad - 140*GLOBALSCALE)
                 break
             }
         }
@@ -207,10 +200,10 @@ class CarClass {
         speed += acceleration
         
         //moving down the road
-        //check if we are going to run off of the current road we are on
+        //check if we are going to run off of the current road we are on, then switch roads
         if (abs((currentRoad?.length)!) - distanceDownCurrentRoad) < speed {
             
-            //if there are no more roads to transfer onto, avoid crashing the program:
+            //if there are no more roads to transfer onto, avoid crashing the program (should never happen if "purge roads" is called) :
             if self.currentRoad?.nextRoads.count == 0 {
                 return
             }
@@ -220,9 +213,7 @@ class CarClass {
             if self.currentRoad === allRoads[destination] {
                 return
             }
-            
             self.currentRoad = pathFind(destination: allRoads[destination])
-            
             
             self.distanceDownCurrentRoad = 0
         } else {

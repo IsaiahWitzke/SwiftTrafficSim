@@ -11,7 +11,6 @@ import SpriteKit
 //set to true if we want extra info output
 var DEBUG = true
 
-
 //"global" that keeps track of the time inbetween frames
 var DELTATIME = 0.0
 
@@ -27,12 +26,12 @@ class GameScene: SKScene {
     //to do with the deltatime variable
     var lastTime = CFAbsoluteTimeGetCurrent()
     
-    
     override func didMove(to view: SKView) {
         
         //this is in preeeeee-alpha, doesn't seem to be able to run the c++ program within swift though
         //executeCommand("/Users/student2018/Desktop/SwiftProjects/TrafficSim/RoadMapProcessing/RoadmapProcessingApp")
         
+        //makes the map
         makeRoads("ProcessedRoadMap")
         
         backgroundColor = SKColor.brown
@@ -40,7 +39,6 @@ class GameScene: SKScene {
         //making the network of raods (the roads are made in the RoadMapHandler, but here is where we link the roads together)
         purgeDeadEnds(&allRoads)    //so there are no dead ends (important for 3-way intersections)
         connnectAllRoads(&allRoads) //very important to connect all roads and actually "network" the network of roads
-        
         
         //adding children to the scene
         
@@ -51,10 +49,9 @@ class GameScene: SKScene {
             }
         }
         
-        
-        
         //initializing cars (at random positions)
         allCars.append(CarClass(imageName: "Car1", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
+        
         allCars.append(CarClass(imageName: "Car2", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car3", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car4", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
@@ -68,7 +65,6 @@ class GameScene: SKScene {
         allCars.append(CarClass(imageName: "Car5", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car6", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
         allCars.append(CarClass(imageName: "Car7", startRoad: Int(arc4random_uniform(UInt32(allRoads.count))), initialSpeed: 2))
-        
         
         //adding cars to screen
         if allCars.count != 0 {
@@ -101,7 +97,6 @@ class GameScene: SKScene {
         for i in 0..<allCars.count {
             allCars[i].updateCar(destination: i*10)
         }
-        
         
         //keeping track of the number of frames that have passed
         numberOfFrames += 1

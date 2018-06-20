@@ -22,7 +22,6 @@ func findYIntercept (_ point:CGPoint, _ slope:CGFloat) -> CGFloat {
 }
 
 func contains(_ array:[Road], _ possibleElement:Road) -> Bool {
-    
     for i in array {
         if i === possibleElement {
             return true
